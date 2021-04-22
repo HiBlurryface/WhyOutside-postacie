@@ -4,3 +4,11 @@ $(document).ready(function () {
         $('body').toggleClass('lock');
     })
 })
+
+new Swiper('.products__slider', {
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    // simulateTouch: false,
+});

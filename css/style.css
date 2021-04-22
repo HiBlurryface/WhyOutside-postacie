@@ -196,7 +196,7 @@ img {
 }
 
 .orange-top img {
-  margin-bottom: -5px;
+  margin-bottom: -2px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -322,6 +322,13 @@ img {
   width: 100%;
 }
 
+.orange-end img {
+  margin-top: -2px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .blue {
   background: #fafafa;
 }
@@ -351,6 +358,12 @@ img {
   padding: 0 20px;
 }
 
+@media (min-width: 1441px) {
+  .blue__item {
+    margin: -150px auto 0;
+  }
+}
+
 .blue__info {
   border-bottom: 5px solid #758b98;
 }
@@ -369,7 +382,7 @@ img {
 
 .blue__info-title {
   font-size: 72px;
-  color: #758b98;
+  color: #43525d;
   font-weight: 600;
   text-align: center;
   padding-bottom: 30px;
@@ -377,7 +390,7 @@ img {
 
 .blue__info-text {
   font-size: 30px;
-  color: #758b98;
+  color: #43525d;
   line-height: 45px;
   padding-bottom: 30px;
 }
@@ -430,10 +443,90 @@ img {
 }
 
 .blue-top img {
-  margin-bottom: -6px;
+  margin-bottom: -2px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.blue-end {
+  background: #758b98;
+}
+
+.blue-end img {
+  margin-top: -2px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products {
+  padding: 100px 0;
+  background: #758b98;
+}
+
+.products__frame {
+  position: relative;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.products__frame-img {
+  top: 0;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.products__shell {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.products__slider {
+  border-radius: 15% 0 0 0;
+  position: absolute;
+  top: 15%;
+  height: 70%;
+  width: 75%;
+}
+
+.products__slider-slide {
+  background: url("../../img/Layer 8.jpg");
+  background-size: cover;
+}
+
+.products__slider .swiper-pagination {
+  position: fixed;
+}
+
+.products__slider .swiper-pagination-bullet {
+  height: 25px;
+  width: 25px;
+  background: #fff;
+  opacity: 1;
+}
+
+@media (max-width: 769px) {
+  .products__slider .swiper-pagination-bullet {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.products__slider .swiper-pagination-bullet-active {
+  background: #758b98;
+  border: 4px solid #fff;
 }
 
 .footer {
@@ -504,6 +597,10 @@ img {
 
 .footer__content-icon i:first-child {
   padding-right: 17px;
+}
+
+.footer-bottom {
+  background: #758b98;
 }
 
 .footer-bottom img {
