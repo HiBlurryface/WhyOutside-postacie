@@ -180,6 +180,9 @@ img {
     &__item {
         margin: 0px auto;
         padding: 0 40px;
+        @media (max-width: 768px) {
+            padding: 0 20px;
+        }
         @media (min-width: 1441px) {
             margin: -150px auto 0;
             width: 50%;
@@ -270,12 +273,16 @@ img {
         text-align: justify;
         margin: 0 auto;
         padding: 0 40px;
+        @media (max-width: 768px) {
+            padding: 0 20px;
+        }
         @media (min-width: 1441px) {
             margin: -150px auto 0;
             width: 50%;
         }
     }
     &__info {
+        margin: 0px auto;
         border-bottom: 5px solid #758b98;
         @media (min-width: 1441px) {
             max-width: 700px;

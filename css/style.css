@@ -237,6 +237,12 @@ img {
   padding: 0 40px;
 }
 
+@media (max-width: 768px) {
+  .orange__item {
+    padding: 0 20px;
+  }
+}
+
 @media (min-width: 1441px) {
   .orange__item {
     margin: -150px auto 0;
@@ -374,6 +380,12 @@ img {
   padding: 0 40px;
 }
 
+@media (max-width: 768px) {
+  .blue__item {
+    padding: 0 20px;
+  }
+}
+
 @media (min-width: 1441px) {
   .blue__item {
     margin: -150px auto 0;
@@ -382,6 +394,7 @@ img {
 }
 
 .blue__info {
+  margin: 0px auto;
   border-bottom: 5px solid #758b98;
 }
 
