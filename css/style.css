@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Patrick Hand", cursive;
 }
@@ -537,8 +538,33 @@ img {
   width: 75%;
 }
 
-.products__slider-slide {
-  background: url("../img/Layer 8.jpg");
+.products__slider-slide.slide1 {
+  background: url("../../img/mockup plakat nie dotykania twarzy.png");
+  background-size: cover;
+}
+
+.products__slider-slide.slide2 {
+  background: url("../img/mockup plakatu dezynfikowanie rąk .png");
+  background-size: cover;
+}
+
+.products__slider-slide.slide3 {
+  background: url("../img/mockup plakaty i okładka zeszytu.png");
+  background-size: cover;
+}
+
+.products__slider-slide.slide4 {
+  background: url("../img/mockup pocztówek 2 Mr Maseczki i Dominiki.png");
+  background-size: cover;
+}
+
+.products__slider-slide.slide5 {
+  background: url("../img/mockup pocztówek  Mr Maseczki i Dominiki.png");
+  background-size: cover;
+}
+
+.products__slider-slide.slide6 {
+  background: url("../img/mockup ulotka zimna Mr Maseczki.png");
   background-size: cover;
 }
 

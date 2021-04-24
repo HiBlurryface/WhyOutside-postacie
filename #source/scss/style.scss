@@ -384,8 +384,30 @@ img {
         height: 70%;
         width: 75%;
         &-slide {
-            background: url('../img/Layer\ 8.jpg');
-            background-size: cover;
+            &.slide1 {
+                background: url('../../img/mockup\ plakat\ nie\ dotykania\ twarzy.png');
+                background-size: cover;
+            }
+            &.slide2 {
+                background: url('../img/mockup\ plakatu\ dezynfikowanie\ rąk\ .png');
+                background-size: cover;
+            }
+            &.slide3 {
+                background: url('../img/mockup\ plakaty\ i\ okładka\ zeszytu.png');
+                background-size: cover;
+            }
+            &.slide4 {
+                background: url('../img/mockup\ pocztówek\ 2\ Mr\ Maseczki\ i\ Dominiki.png');
+                background-size: cover;
+            }
+            &.slide5 {
+                background: url('../img/mockup\ pocztówek\ \ Mr\ Maseczki\ i\ Dominiki.png');
+                background-size: cover;
+            }
+            &.slide6 {
+                background: url('../img/mockup\ ulotka\ zimna\ Mr\ Maseczki.png');
+                background-size: cover;
+            }
         }
         & .swiper-pagination {
             position: fixed;
