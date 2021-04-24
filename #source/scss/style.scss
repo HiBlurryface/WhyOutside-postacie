@@ -155,6 +155,7 @@ img {
 }
 // orange 
 .orange-top {
+    margin-top: 70px;
     & img {
         margin-bottom: -2px;
         width: 100%;
@@ -345,13 +346,14 @@ img {
 .blue-end {
     background: #758b98;
     & img {
-        margin-top: -2px;
+        margin-top: -4px;
         width: 100%;
         object-fit: cover;
     }
 }
 // products
 .products {
+    margin-top: -4px;
     padding: 100px 0;
     background: #758b98;
     &__frame {
@@ -419,6 +421,7 @@ img {
 
 // footer 
 .footer {
+    margin-top: -4px;
     background: #758b98;
     @media (min-width: 1921px) {
         padding-bottom: 100px;
@@ -451,9 +454,6 @@ img {
             & i {
                 font-size: 35px;
                 color: #fff;
-                &:first-child {
-                    padding-right: 17px;
-                }
             }
         }
     }
@@ -461,6 +461,7 @@ img {
 .footer-bottom {
     background: #758b98;
     & img {
+        margin-top: -4px;
         width: 100%;
         object-fit: cover;
     }

@@ -489,13 +489,14 @@ img {
 }
 
 .blue-end img {
-  margin-top: -2px;
+  margin-top: -4px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .products {
+  margin-top: -4px;
   padding: 100px 0;
   background: #758b98;
 }
@@ -583,6 +584,7 @@ img {
 }
 
 .footer {
+  margin-top: -4px;
   background: #758b98;
 }
 
@@ -648,15 +650,12 @@ img {
   color: #fff;
 }
 
-.footer__content-icon i:first-child {
-  padding-right: 17px;
-}
-
 .footer-bottom {
   background: #758b98;
 }
 
 .footer-bottom img {
+  margin-top: -4px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
