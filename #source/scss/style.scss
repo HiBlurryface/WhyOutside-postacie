@@ -1,6 +1,9 @@
 $patrick: 'Patrick Hand', cursive;
 $comfort: 'Comfortaa', cursive;
 
+html {
+    scroll-behavior:smooth;
+}
 body {
     font-family: $patrick;
     &.lock {
@@ -35,10 +38,10 @@ img {
         &-body {
             z-index: 200;
             display: flex;
-            @media (min-width: 931px) {
+            @media (min-width: 1001px) {
                 justify-content: center;
             }
-            @media (max-width: 930px) {
+            @media (max-width: 1000px) {
                 position: absolute;
                 left: -100%;
                 top: 0;
@@ -57,10 +60,10 @@ img {
             }
         }
         &-item {
-            @media (min-width: 931px) {
+            @media (min-width: 1001px) {
                 padding: 0 18px;
             }
-            @media (max-width: 930px) {
+            @media (max-width: 1000px) {
                 position: relative;
                 margin-bottom: 35px;
                 padding-bottom: 15px;
@@ -91,7 +94,7 @@ img {
             color: #fff;
             font-family: $comfort;
             font-size: 22px;
-            @media (min-width: 931px) {
+            @media (min-width: 1001px) {
                 padding: 0 25px 10px;
                 &.link-active {
                     border-bottom: 2px solid #fff;
@@ -104,7 +107,7 @@ img {
     }
     &__burger {
         z-index: 300;
-        @media (max-width: 930px) {
+        @media (max-width: 1000px) {
             width: 35px;
             height: 32px;
             position: relative;
@@ -385,32 +388,35 @@ img {
         width: 75%;
         &-slide {
             &.slide1 {
-                background: url('../img/mockup\ plakat\ nie\ dotykania\ twarzy.png');
+                background: url('../../img/mockup1.png');
                 background-size: cover;
             }
             &.slide2 {
-                background: url('../img/mockup\ plakatu\ dezynfikowanie\ rąk\ .png');
+                background: url('../../img/mockup2.png');
                 background-size: cover;
             }
             &.slide3 {
-                background: url('../img/mockup\ plakaty\ i\ okładka\ zeszytu.png');
+                background: url('../../img/mockup3.png');
                 background-size: cover;
             }
             &.slide4 {
-                background: url('../img/mockup\ pocztówek\ 2\ Mr\ Maseczki\ i\ Dominiki.png');
+                background: url('../../img/mockup4.png');
                 background-size: cover;
             }
             &.slide5 {
-                background: url('../img/mockup\ pocztówek\ \ Mr\ Maseczki\ i\ Dominiki.png');
+                background: url('../../img/mockup5.png');
                 background-size: cover;
             }
             &.slide6 {
-                background: url('../img/mockup\ ulotka\ zimna\ Mr\ Maseczki.png');
+                background: url('../../img/mockup6.png');
                 background-size: cover;
             }
         }
         & .swiper-pagination {
             position: fixed;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 0);
             &-bullet {
                 height: 25px;
                 width: 25px;
@@ -443,34 +449,55 @@ img {
 
 // footer 
 .footer {
-    margin-top: -4px;
+    margin-top: -2px;
     background: #758b98;
     @media (min-width: 1921px) {
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
     @media (max-width: 1920px) {
-        padding-bottom: 50px;
-    }
-    @media (max-width: 768px) {
-        padding: 20px 0 30px;
+        padding: 50px 0;
     }
     &__content {
         display: flex;
         align-items: center;
-        justify-content: flex-end;
-        @media (max-width: 768px) {
+        justify-content: space-between;
+        @media (max-width: 1024px) {
             flex-direction: column;
+        }
+        &-block {
+            display: flex;
+            align-items: center;
+            &:first-child {
+                @media (max-width: 1024px) {
+                    padding-bottom: 20px;
+                }
+                @media (max-width: 768px) {
+                    flex-direction: column;
+                    text-align: center;
+                }
+            }
         }
         &-title {
             font-size: 48px;
             color: #fff;
+            padding-right: 50px;
             @media (min-width: 769px) {
                 padding-right: 50px;
             }
-            @media (max-width: 768px) {
+            @media (max-width: 425px) {
                 font-size: 35px;
-                margin-bottom: 20px;
             }
+        }
+        &-autor {
+            font-family: "Comfortaa";
+            color:#fff;
+            @media (min-width: 769px) {
+                margin-right: 30px;
+            }
+        }
+        &-designed {
+            font-family: "Comfortaa";
+            color:#fff;
         }
         &-icon {
             & i {
