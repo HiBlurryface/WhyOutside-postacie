@@ -542,32 +542,32 @@ img {
 }
 
 .products__slider-slide.slide1 {
-  background: url("../../img/mockup1.png");
+  background: url("../img/mockup1.png");
   background-size: cover;
 }
 
 .products__slider-slide.slide2 {
-  background: url("../../img/mockup2.png");
+  background: url("../img/mockup2.png");
   background-size: cover;
 }
 
 .products__slider-slide.slide3 {
-  background: url("../../img/mockup3.png");
+  background: url("../img/mockup3.png");
   background-size: cover;
 }
 
 .products__slider-slide.slide4 {
-  background: url("../../img/mockup4.png");
+  background: url("../img/mockup4.png");
   background-size: cover;
 }
 
 .products__slider-slide.slide5 {
-  background: url("../../img/mockup5.png");
+  background: url("../img/mockup5.png");
   background-size: cover;
 }
 
 .products__slider-slide.slide6 {
-  background: url("../../img/mockup6.png");
+  background: url("../img/mockup6.png");
   background-size: cover;
 }
 
